@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+int n;
+cin >> n;
+int i = 1;
+int range = 10;
+
+while(range>0) {
+cout << n << " x " << i << "=" << n*i << endl;
+i=i+1;
+--range;
+}
+
+return 0;
+}
+
+//Output first 10 equations(range) in timestable "n" and multiply n by i.
+
+
